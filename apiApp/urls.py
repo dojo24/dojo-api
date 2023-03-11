@@ -5,6 +5,7 @@ from apiApp import views
 router = routers.DefaultRouter()
 router.register(r'characters', views.CharacterViewSet)
 router.register(r'squishies', views.SquishiesViewSet)
+router.register(r'stickers', views.StickerViewSet)
 
 
 urlpatterns = [

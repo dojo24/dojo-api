@@ -10,3 +10,8 @@ class SquishiesSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Squishies
         fields = ('id', 'name', 'img')
+
+class StickerSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = Stickers
+        fields = ('id', 'name', 'img', 'category')

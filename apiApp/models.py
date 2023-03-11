@@ -15,3 +15,10 @@ class Squishies(models.Model):
     img = models.CharField(max_length=255, blank=True)
     def __str__(self):
         return self.name
+    
+class Stickers(models.Model):
+    name = models.CharField(max_length=255)
+    img = models.CharField(max_length=255, blank=True)
+    category = models.CharField(max_length=255)
+    def __str__(self):
+        return self.name

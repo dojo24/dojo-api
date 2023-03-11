@@ -3,3 +3,4 @@ from apiApp.models import *
 
 admin.site.register(Characters)
 admin.site.register(Squishies)
+admin.site.register(Stickers)

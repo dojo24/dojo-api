@@ -11,3 +11,7 @@ class CharacterViewSet(viewsets.ModelViewSet):
 class SquishiesViewSet(viewsets.ModelViewSet):
     queryset = Squishies.objects.all()
     serializer_class = SquishiesSerializer
+
+class StickerViewSet(viewsets.ModelViewSet):
+    queryset = Squishies.objects.all()
+    serializer_class = SquishiesSerializer
